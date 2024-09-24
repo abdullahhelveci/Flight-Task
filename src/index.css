@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .box {
-    @apply border p-5 rounded-lg bg-white shadow;
-  }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  color: transparent;
+  position: absolute;
+  width: 100px;
+  height: 24px;
 }
